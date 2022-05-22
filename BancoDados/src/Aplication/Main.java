@@ -43,7 +43,7 @@ public class Main {
 		
 		fumDao.deleteByIdF(1);
 		
-		//visualização registro do bd
+		//visualizaÃ§Ã£o registro do bd
 		
 		for( Funcionario f: fumDao.getFuncionario()) {
 			System.out.println("++++++++++++++++++++++++++++++++++++++++++");
@@ -52,7 +52,7 @@ public class Main {
 			System.out.println("fucao: " + f.getFuncao());
 			System.out.println("salario: " + f.getSalario());
 			System.out.println("cpf:  " + f.getCpf());
-			System.out.println("endereço: " + f.getEndereco());
+			System.out.println("endereÃ§o: " + f.getEndereco());
 			
 		}
 		/*
@@ -61,10 +61,11 @@ public class Main {
 			System.out.println("id: " + c.getIdCliente());
 			System.out.println("Nome funcionario: " + c.getNomeCliente());
 			System.out.println("cpf:  " + c.getCpf());
-			System.out.println("endereço: " + c.getEndereco());
+			System.out.println("endereÃ§o: " + c.getEndereco());
 			
 		}
 		*/
+		
 		
 		
 	}
